@@ -1,0 +1,46 @@
+.cabecalho {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 4px 4px 10px #53f753;
+    margin-top: 20px;
+}
+
+.logo-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    border-radius: 100px;
+
+}
+
+
+
+.caixa-botoes {
+    height: 400px;
+    width: 350px;
+    justify-content: space-evenly;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 6px solid #53f753;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 140px;
+    height: 70px;
+    border-style: outset;
+}
+
+
+
